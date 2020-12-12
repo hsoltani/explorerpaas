@@ -18,7 +18,29 @@
          }
       }
    },
-   
+   "channels":{
+      "common":{
+         "peers":{
+            "peer0.peertest.example.com":{
+
+            },
+            "peer0.peersample.example.com":{
+
+            }
+           
+            
+         },
+         "connection":{
+            "timeout":{
+               "peer":{
+                  "endorser":"6000",
+                  "eventHub":"6000",
+                  "eventReg":"6000"
+               }
+            }
+         }
+      }
+   },
    "organizations":{
       "peertestMSP":{
          "mspid":"peertestMSP",
