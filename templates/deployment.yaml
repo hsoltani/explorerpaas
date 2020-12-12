@@ -114,18 +114,18 @@ spec:
         - name: connection
           mountPath: /opt/explorer/app/platform/fabric/connection-profile
         - name: crypto1
-          mountPath: /tmp/crypto/peerOrganizations/aptalkarga.tr/users/Admin@aptalkarga.tr/msp/keystore
+          mountPath: /tmp/crypto/peerOrganizations/peertest.example.com/users/Admin@peertest.example.com/msp/keystore
         - name: crypto2
-          mountPath: /tmp/crypto/peerOrganizations/aptalkarga.tr/users/Admin@aptalkarga.tr/msp/signcerts
+          mountPath: /tmp/crypto/peerOrganizations/peertest.example.com/users/Admin@peertest.example.com/msp/signcerts
         - name: crypto3
-          mountPath: /tmp/crypto/peerOrganizations/atlantis.com/users/Admin@atlantis.com/msp/keystore
+          mountPath: /tmp/crypto/peerOrganizations/peersample.example.com/users/Admin@peersample.example.com/msp/keystore
         - name: crypto4
-          mountPath: /tmp/crypto/peerOrganizations/atlantis.com/users/Admin@atlantis.com/msp/signcerts
+          mountPath: /tmp/crypto/peerOrganizations/peersample.example.com/users/Admin@peersample.example.com/msp/signcerts
         
         - name: crypto7
-          mountPath: /tmp/crypto/peerOrganizations/aptalkarga.tr/peers/peer0.aptalkarga.tr/tls
+          mountPath: /tmp/crypto/peerOrganizations/peertest.example.com/peers/peer0.peertest.example.com/tls
         - name: crypto8
-          mountPath: /tmp/crypto/peerOrganizations/atlantis.com/peers/peer0.atlantis.com/tls
+          mountPath: /tmp/crypto/peerOrganizations/peersample.example.com/peers/peer0.peersample.example.com/tls
         
         - name: crypto10
           mountPath: /opt/explorer/app/platform/fabric/config.json
