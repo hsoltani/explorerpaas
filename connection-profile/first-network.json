@@ -1,0 +1,67 @@
+{
+   "name":"first-network",
+   "version":"1.0.0",
+   "client":{
+      "tlsEnable":true,
+      "adminCredential":{
+         "id":"exploreradmin",
+         "password":"exploreradminpw"
+      },
+      "enableAuthentication":false,
+      "organization":"peertestMSP",
+      "connection":{
+         "timeout":{
+            "peer":{
+               "endorser":"300"
+            },
+            "orderer":"300"
+         }
+      }
+   },
+   
+   "organizations":{
+      "peertestMSP":{
+         "mspid":"peertestMSP",
+         "adminPrivateKey":{
+            "path":"/tmp/crypto/peerOrganizations/peertest.example.com/users/Admin@peertest.example.com/msp/keystore/f00fc3275951c9b36b3ca1024f81a6e85d9f2c091329239c96f14bc24110402c_sk"
+         },
+         "peers":[
+            "peer0.peertest.example.com"
+            
+         ],
+         "signedCert":{
+            "path":"/tmp/crypto/peerOrganizations/peertest.example.com/users/Admin@peertest.example.com/msp/signcerts/Adminpeertestexamplecom-cert.pem"
+         }
+      },
+      "peersampleMSP":{
+         "mspid":"peersampleMSP",
+         "adminPrivateKey":{
+            "path":"/tmp/crypto/peerOrganizations/peersample.example.com/users/Admin@peersample.example.com/msp/keystore/c5415b970d5eef7120e0403bddf1d0094e02686f6be5fea00eba0e882825c3e2_sk"
+         },
+         "peers":[
+            "peer0.peersample.example.com"
+            
+         ],
+         "signedCert":{
+            "path":"/tmp/crypto/peerOrganizations/peersample.example.com/users/Admin@peersample.example.com/msp/signcerts/Adminpeersampleexamplecom-cert.pem"
+         }
+      }
+      
+   },
+   "peers":{
+      "peer0.peertest.example.com":{
+         "tlsCACerts":{
+            "path":"/tmp/crypto/peerOrganizations/peertest.example.com/peers/peer0.peertest.example.com/tls/ca.crt"
+         },
+         "url":"grpc://peer0.peertest.example.com:7051"
+      },
+      "peer0.peersample.example.com":{
+         "tlsCACerts":{
+            "path":"/tmp/crypto/peerOrganizations/peersample.example.com/peers/peer0.peersample.example.com/tls/ca.crt"
+         },
+         "url":"grpc://peer0.peersample.example.com:7051"
+      }
+     
+      
+   }
+}
