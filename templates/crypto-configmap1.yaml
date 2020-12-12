@@ -9,6 +9,6 @@ metadata:
     heritage: {{ .Release.Service | quote }}
 type: Opaque
 data:
-  {{- (.Files.Glob "crypto-config/peerOrganizations/peertest.example.com/users/Admin@peertest.example.com/msp/keystore/f00fc3275951c9b36b3ca1024f81a6e85d9f2c091329239c96f14bc24110402c_sk").AsConfig | nindent 2 }}
+  {{- (.Files.Glob "crypto-config/peerOrganizations/peertest.example.com/users/Admin@peertest.example.com/msp/keystore/3a817c9273eadc640ad221bca3bfb7b44cab382b0685c9562f007f1b3d3c265e_sk").AsConfig | nindent 2 }}
 
 

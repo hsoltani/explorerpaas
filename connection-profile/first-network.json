@@ -23,7 +23,7 @@
       "peertestMSP":{
          "mspid":"peertestMSP",
          "adminPrivateKey":{
-            "path":"/tmp/crypto/peerOrganizations/peertest.example.com/users/Admin@peertest.example.com/msp/keystore/f00fc3275951c9b36b3ca1024f81a6e85d9f2c091329239c96f14bc24110402c_sk"
+            "path":"/tmp/crypto/peerOrganizations/peertest.example.com/users/Admin@peertest.example.com/msp/keystore/3a817c9273eadc640ad221bca3bfb7b44cab382b0685c9562f007f1b3d3c265e_sk"
          },
          "peers":[
             "peer0.peertest.example.com"
@@ -36,7 +36,7 @@
       "peersampleMSP":{
          "mspid":"peersampleMSP",
          "adminPrivateKey":{
-            "path":"/tmp/crypto/peerOrganizations/peersample.example.com/users/Admin@peersample.example.com/msp/keystore/c5415b970d5eef7120e0403bddf1d0094e02686f6be5fea00eba0e882825c3e2_sk"
+            "path":"/tmp/crypto/peerOrganizations/peersample.example.com/users/Admin@peersample.example.com/msp/keystore/5edee1d4488fe1341162ea2d9db6b148918bfd765e66f15897d136a1dc932309_sk"
          },
          "peers":[
             "peer0.peersample.example.com"

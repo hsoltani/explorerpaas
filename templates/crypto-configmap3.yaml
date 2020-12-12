@@ -9,7 +9,7 @@ metadata:
     heritage: {{ .Release.Service | quote }}
 type: Opaque
 data:
-  {{- (.Files.Glob "crypto-config/peerOrganizations/peersample.example.com/users/Admin@peersample.example.com/msp/keystore/c5415b970d5eef7120e0403bddf1d0094e02686f6be5fea00eba0e882825c3e2_sk").AsConfig | nindent 2 }}
+  {{- (.Files.Glob "crypto-config/peerOrganizations/peersample.example.com/users/Admin@peersample.example.com/msp/keystore/5edee1d4488fe1341162ea2d9db6b148918bfd765e66f15897d136a1dc932309_sk").AsConfig | nindent 2 }}
 
 
 
